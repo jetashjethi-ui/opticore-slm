@@ -1,0 +1,96 @@
+============================================================
+  OptiCore Training Data - Validate, Fix & Merge
+============================================================
+
+Found 19 input files:
+  [Y] sample_training_data.jsonl               (    37,503 bytes)
+  [Y] batch_01.jsonl                           (    70,007 bytes)
+  [Y] batch_02.jsonl                           (    84,237 bytes)
+  [Y] batch_03.jsonl                           (    60,779 bytes)
+  [Y] batch_04.jsonl                           (    58,711 bytes)
+  [Y] batch_05.jsonl                           (    75,000 bytes)
+  [Y] batch_06.jsonl                           (    67,745 bytes)
+  [Y] batch_07.jsonl                           (    59,790 bytes)
+  [Y] batch_08.jsonl                           (    50,335 bytes)
+  [Y] batch_09.jsonl                           (    67,219 bytes)
+  [Y] batch_10.jsonl                           (    62,977 bytes)
+  [Y] algo_batch_01.jsonl                      (   316,808 bytes)
+  [Y] algo_batch_02.jsonl                      (   257,057 bytes)
+  [Y] algo_batch_03.jsonl                      (   354,804 bytes)
+  [Y] algo_batch_04.jsonl                      (   154,933 bytes)
+  [Y] algo_batch_05.jsonl                      (   194,589 bytes)
+  [Y] algo_batch_06.jsonl                      (   109,863 bytes)
+  [Y] algo_batch_08.jsonl                      (   198,125 bytes)
+  [Y] algo_batch_10.jsonl                      (   101,205 bytes)
+
+============================================================
+  VALIDATION PASS 1
+============================================================
+  [OK] sample_training_data.jsonl     | Total:   50 | Valid:   50 | Fixed:  0 | Dropped:  0
+  [OK] batch_01.jsonl                 | Total:  100 | Valid:  100 | Fixed:  0 | Dropped:  0
+  [OK] batch_02.jsonl                 | Total:  100 | Valid:  100 | Fixed:  0 | Dropped:  0
+  [OK] batch_03.jsonl                 | Total:   97 | Valid:   97 | Fixed:  0 | Dropped:  0
+  [OK] batch_04.jsonl                 | Total:  121 | Valid:  121 | Fixed:  0 | Dropped:  0
+  [OK] batch_05.jsonl                 | Total:  100 | Valid:  100 | Fixed:  0 | Dropped:  0
+  [OK] batch_06.jsonl                 | Total:  100 | Valid:  100 | Fixed:  0 | Dropped:  0
+  [OK] batch_07.jsonl                 | Total:  100 | Valid:  100 | Fixed:  0 | Dropped:  0
+  [OK] batch_08.jsonl                 | Total:   95 | Valid:   95 | Fixed:  0 | Dropped:  0
+  [OK] batch_09.jsonl                 | Total:   93 | Valid:   93 | Fixed:  0 | Dropped:  0
+  [OK] batch_10.jsonl                 | Total:  112 | Valid:  112 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_01.jsonl            | Total:  331 | Valid:  331 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_02.jsonl            | Total:  292 | Valid:  292 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_03.jsonl            | Total:  298 | Valid:  298 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_04.jsonl            | Total:  142 | Valid:  142 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_05.jsonl            | Total:  177 | Valid:  177 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_06.jsonl            | Total:  121 | Valid:  121 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_08.jsonl            | Total:  197 | Valid:  197 | Fixed:  0 | Dropped:  0
+  [FX] algo_batch_10.jsonl            | Total:  150 | Valid:  141 | Fixed:  0 | Dropped:  9
+       Line 23: unparseable
+       Line 25: unparseable
+       Line 29: unparseable
+
+  -------------------------------------------------------
+  PASS 1 TOTALS: 2776 entries | 2767 valid | 0 fixed | 9 dropped
+
+============================================================
+  VALIDATION PASS 2
+============================================================
+  [OK] sample_training_data.jsonl     | Total:   50 | Valid:   50 | Fixed:  0 | Dropped:  0
+  [OK] batch_01.jsonl                 | Total:  100 | Valid:  100 | Fixed:  0 | Dropped:  0
+  [OK] batch_02.jsonl                 | Total:  100 | Valid:  100 | Fixed:  0 | Dropped:  0
+  [OK] batch_03.jsonl                 | Total:   97 | Valid:   97 | Fixed:  0 | Dropped:  0
+  [OK] batch_04.jsonl                 | Total:  121 | Valid:  121 | Fixed:  0 | Dropped:  0
+  [OK] batch_05.jsonl                 | Total:  100 | Valid:  100 | Fixed:  0 | Dropped:  0
+  [OK] batch_06.jsonl                 | Total:  100 | Valid:  100 | Fixed:  0 | Dropped:  0
+  [OK] batch_07.jsonl                 | Total:  100 | Valid:  100 | Fixed:  0 | Dropped:  0
+  [OK] batch_08.jsonl                 | Total:   95 | Valid:   95 | Fixed:  0 | Dropped:  0
+  [OK] batch_09.jsonl                 | Total:   93 | Valid:   93 | Fixed:  0 | Dropped:  0
+  [OK] batch_10.jsonl                 | Total:  112 | Valid:  112 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_01.jsonl            | Total:  331 | Valid:  331 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_02.jsonl            | Total:  292 | Valid:  292 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_03.jsonl            | Total:  298 | Valid:  298 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_04.jsonl            | Total:  142 | Valid:  142 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_05.jsonl            | Total:  177 | Valid:  177 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_06.jsonl            | Total:  121 | Valid:  121 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_08.jsonl            | Total:  197 | Valid:  197 | Fixed:  0 | Dropped:  0
+  [OK] algo_batch_10.jsonl            | Total:  141 | Valid:  141 | Fixed:  0 | Dropped:  0
+
+  -------------------------------------------------------
+  PASS 2 TOTALS: 2767 entries | 2767 valid | 0 fixed | 0 dropped
+
+============================================================
+  MERGING ALL DATA
+============================================================
+
+  Merged 2767 examples into all_training_data.jsonl
+  File size: 2,375,284 bytes (2.27 MB)
+
+============================================================
+  FINAL SUMMARY
+============================================================
+  Pass 1: 2767 valid / 2776 total (0 fixed, 9 dropped)
+  Pass 2: 2767 valid / 2767 total (0 fixed, 0 dropped)
+  Merged: 2767 total training examples
+
+  ALL FILES CLEAN - Ready for training on the 5060!
+

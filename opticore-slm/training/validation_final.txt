@@ -1,0 +1,15 @@
+Found 6 algo_batch files
+
+  algo_batch_01.jsonl: 331 examples, 317,294 bytes - OK
+  algo_batch_02.jsonl: 292 examples, 258,298 bytes - OK
+  algo_batch_03.jsonl: 298 examples, 354,804 bytes - OK
+  algo_batch_04.jsonl: 142 examples, 154,933 bytes - OK
+  algo_batch_05.jsonl: 177 examples, 194,589 bytes - OK
+  algo_batch_06.jsonl: 121 examples, 120,250 bytes - OK
+
+==================================================
+  TOTAL EXAMPLES: 1361
+  TOTAL ERRORS:   0
+  DUPLICATES:     0
+  READY: YES
+==================================================

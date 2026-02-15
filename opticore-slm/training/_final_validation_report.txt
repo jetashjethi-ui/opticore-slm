@@ -1,0 +1,154 @@
+=================================================================
+  FINAL VALIDATION - All Training Data
+=================================================================
+
+Total input files: 21 (10 algo batches)
+
+=================================================================
+  PASS 1: Validate, Fix & Deduplicate
+=================================================================
+  [OK] sample_training_data.jsonl     T:  50 V:  50 F: 0 D: 0 Dup: 0
+  [OK] batch_01.jsonl                 T: 100 V: 100 F: 0 D: 0 Dup: 0
+  [OK] batch_02.jsonl                 T: 100 V: 100 F: 0 D: 0 Dup: 0
+  [OK] batch_03.jsonl                 T:  97 V:  97 F: 0 D: 0 Dup: 0
+  [OK] batch_04.jsonl                 T: 121 V: 121 F: 0 D: 0 Dup: 0
+  [OK] batch_05.jsonl                 T: 100 V: 100 F: 0 D: 0 Dup: 0
+  [OK] batch_06.jsonl                 T: 100 V: 100 F: 0 D: 0 Dup: 0
+  [FX] batch_07.jsonl                 T: 100 V:  99 F: 0 D: 0 Dup: 1
+  [OK] batch_08.jsonl                 T:  95 V:  95 F: 0 D: 0 Dup: 0
+  [OK] batch_09.jsonl                 T:  93 V:  93 F: 0 D: 0 Dup: 0
+  [OK] batch_10.jsonl                 T: 112 V: 112 F: 0 D: 0 Dup: 0
+  [OK] algo_batch_01.jsonl            T: 331 V: 331 F: 0 D: 0 Dup: 0
+  [FX] algo_batch_02.jsonl            T: 292 V: 287 F: 0 D: 0 Dup: 5
+  [OK] algo_batch_03.jsonl            T: 298 V: 298 F: 0 D: 0 Dup: 0
+  [FX] algo_batch_04.jsonl            T: 142 V: 125 F: 0 D: 0 Dup:17
+  [OK] algo_batch_05.jsonl            T: 177 V: 177 F: 0 D: 0 Dup: 0
+  [OK] algo_batch_06.jsonl            T: 121 V: 121 F: 0 D: 0 Dup: 0
+    DROPPED line 3 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 8 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 18 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 25 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 35 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 42 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 46 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 50 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 56 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 60 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 65 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 70 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 75 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 80 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 85 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 90 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 95 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 100 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 105 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 110 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 118 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 119 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 123 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 127 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 131 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 137 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 145 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 149 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 154 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 158 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 163 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 168 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 173 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 177 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 182 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 187 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 192 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 197 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 202 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 207 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 212 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 217 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 222 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 227 in algo_batch_07.jsonl: unparseable JSON
+    DROPPED line 232 in algo_batch_07.jsonl: unparseable JSON
+  [FX] algo_batch_07.jsonl            T: 232 V: 113 F: 0 D:45 Dup:74 [NEW]
+  [OK] algo_batch_08.jsonl            T: 196 V: 196 F: 0 D: 0 Dup: 0
+    DROPPED line 5 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 9 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 13 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 14 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 16 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 20 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 25 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 26 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 29 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 34 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 39 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 43 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 48 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 52 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 55 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 57 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 60 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 68 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 69 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 70 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 73 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 78 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 84 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 88 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 106 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 116 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 120 in algo_batch_09.jsonl: unparseable JSON
+    DROPPED line 122 in algo_batch_09.jsonl: unparseable JSON
+  [FX] algo_batch_09.jsonl            T: 192 V: 164 F: 6 D:28 Dup: 0 [NEW]
+  [FX] algo_batch_10.jsonl            T: 141 V: 122 F: 0 D: 0 Dup:19 [NEW]
+
+  PASS 1 TOTALS: 3190 total | 3001 valid | 6 fixed | 73 dropped | 116 dupes removed
+
+=================================================================
+  PASS 2: Verification (should be all clean)
+=================================================================
+  [OK] sample_training_data.jsonl     T:  50 V:  50
+  [OK] batch_01.jsonl                 T: 100 V: 100
+  [OK] batch_02.jsonl                 T: 100 V: 100
+  [OK] batch_03.jsonl                 T:  97 V:  97
+  [OK] batch_04.jsonl                 T: 121 V: 121
+  [OK] batch_05.jsonl                 T: 100 V: 100
+  [OK] batch_06.jsonl                 T: 100 V: 100
+  [OK] batch_07.jsonl                 T:  99 V:  99
+  [OK] batch_08.jsonl                 T:  95 V:  95
+  [OK] batch_09.jsonl                 T:  93 V:  93
+  [OK] batch_10.jsonl                 T: 112 V: 112
+  [OK] algo_batch_01.jsonl            T: 331 V: 331
+  [OK] algo_batch_02.jsonl            T: 287 V: 287
+  [OK] algo_batch_03.jsonl            T: 298 V: 298
+  [OK] algo_batch_04.jsonl            T: 125 V: 125
+  [OK] algo_batch_05.jsonl            T: 177 V: 177
+  [OK] algo_batch_06.jsonl            T: 121 V: 121
+  [OK] algo_batch_07.jsonl            T: 113 V: 113
+  [OK] algo_batch_08.jsonl            T: 196 V: 196
+  [OK] algo_batch_09.jsonl            T: 164 V: 164
+  [OK] algo_batch_10.jsonl            T: 122 V: 122
+
+  PASS 2 TOTALS: 3001 total | 3001 valid | Issues: 0
+
+=================================================================
+  MERGING ALL DATA
+=================================================================
+
+  Merged 3001 examples into all_training_data.jsonl
+  File size: 2,614,007 bytes (2.49 MB)
+
+=================================================================
+  FINAL SUMMARY
+=================================================================
+  Pass 1: 3001 valid / 3190 total (6 fixed, 73 dropped, 116 dupes)
+  Pass 2: 3001 valid / 3001 total (issues: 0)
+  Merged: 3001 total training examples
+
+  ALL FILES CLEAN - Ready for training!
+
+Traceback (most recent call last):
+  File "C:\Users\jetas\OneDrive\Desktop\Project\opticore-slm\training\final_check.py", line 203, in <module>
+    with open("_final_validation_report.txt", "w", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '_final_validation_report.txt'

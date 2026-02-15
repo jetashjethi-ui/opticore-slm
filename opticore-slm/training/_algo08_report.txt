@@ -1,0 +1,65 @@
+Total entries: 197
+
+Short instructions (<20 chars): 0
+Short outputs (<50 chars): 0
+Empty inputs: 0
+Outputs with URLs: 0
+
+Duplicate entries: 8
+
+--- FIRST 3 ENTRIES (truncated) ---
+[1] instr: Analyze the following C++ code for performance bottlenecks. Suggest optimized data structures and ex
+     input: #include <vector>
+#include <numeric>
+
+long long get_subarray_sum(const std::vect
+     output: #include <vector>
+
+class RangeSum {
+	std::vector<long long> prefix_sums;
+public:
+	RangeSum(const std::vector<int>& data)
+
+[2] instr: Analyze the following C++ code for performance bottlenecks. Suggest optimized data structures and ex
+     input: #include <vector>
+
+int sum_submatrix(const std::vector<std::vector<int>>& matrix
+     output: #include <vector>
+
+class MatrixSum {
+	std::vector<std::vector<int>> p;
+public:
+	MatrixSum(const std::vector<std::vector<
+
+[3] instr: Analyze the following C++ code for performance bottlenecks. Suggest optimized data structures and ex
+     input: #include <vector>
+
+int count_in_range(const std::vector<int>& vals, int min_val,
+     output: #include <vector>
+
+class RangeCounter {
+	std::vector<int> freq_prefix;
+public:
+	RangeCounter(const std::vector<int>& val
+
+--- LAST 2 ENTRIES (truncated) ---
+[196] instr: Analyze the following C++ code for performance bottlenecks. Suggest optimized data structures and ex
+     input: #include <vector>
+
+std::vector<double> calc_rolling_means(const std::vector<int>
+     output: #include <vector>
+
+std::vector<double> calc_rolling_means_optimized(const std::vector<int>& data) {
+	size_t n = data.siz
+
+[197] instr: Analyze the following C++ code for performance bottlenecks. Suggest optimized data structures and ex
+     input: #include <vector>
+
+void batch_add_ranges(std::vector<int>& v, const std::vector<
+     output: #include <vector>
+
+void batch_add_ranges_optimized(std::vector<int>& v, const std::vector<std::pair<int, int>>& ops, int
+
+--- TOPIC COVERAGE ---
+  cache: 2
+  loop: 1
