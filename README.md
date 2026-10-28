@@ -95,7 +95,7 @@ Do these steps once. After that, use [Everyday Startup](#everyday-startup) only.
 ### Step 1 — Install Python dependencies
 
 ```bash
-cd C:\Users\deepa\opticore-slm\opticore-slm\server
+cd C:\Users\opticore-slm\opticore-slm\server
 python -m pip install -r requirements.txt
 ```
 
@@ -122,7 +122,7 @@ python -m pip show llama-cpp-python
 The `.vsix` file is already built and committed. Install it once:
 
 ```bash
-cd C:\Users\deepa\opticore-slm\opticore-slm\vscode-extension
+cd C:\Users\opticore-slm\opticore-slm\vscode-extension
 code --install-extension opticore-slm-0.1.0.vsix
 ```
 
@@ -139,7 +139,7 @@ Every time you restart your laptop or want to use OptiCore, do only these two st
 ### Terminal 1 — Start the Python server
 
 ```bash
-cd C:\Users\deepa\opticore-slm\opticore-slm\server
+cd C:\Users\opticore-slm\opticore-slm\server
 python server.py
 ```
 
@@ -162,7 +162,7 @@ python server.py --model path\to\your-model.gguf
 ### Terminal 2 — Open VS Code
 
 ```bash
-cd C:\Users\deepa\opticore-slm\opticore-slm
+cd C:\Users\opticore-slm\opticore-slm
 code .
 ```
 
