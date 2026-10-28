@@ -435,7 +435,7 @@ Measured manually at `-O0` on x86-64 (GCC). Numbers are directional.
 | | |
 | :--- | :--- |
 | Hugging Face model | [Neo-3007/OptiCore\_slm](https://huggingface.co/Neo-3007/OptiCore_slm) |
-| Hugging Face dataset | [link] |
+| Hugging Face dataset | [https://huggingface.co/datasets/Neo-3007/opticore_Slm/viewer/default/train?p=2] |
 | GitHub | [jetashjethi-ui/opticore-slm](https://github.com/jetashjethi-ui/opticore-slm) |
 | Demo video | [Watch on YouTube](https://youtu.be/pHb6vDxxK4c?si=8aXf4naJtBEvyrmX) |
 
