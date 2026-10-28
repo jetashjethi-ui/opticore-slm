@@ -192,7 +192,7 @@ If the item doesn't appear, check those two conditions first. You can also run i
 
 | Task | Command |
 | :--- | :--- |
-| Navigate to server folder | `cd C:\Users\deepa\opticore-slm\opticore-slm\server` |
+| Navigate to server folder | `cd C:\Users\opticore-slm\opticore-slm\server` |
 | Start server (rule-based mode) | `python server.py` |
 | Start server (with AI model) | `python server.py --model path\to\model.gguf` |
 | Start on a different port | `python server.py --port 9090` |
@@ -209,7 +209,7 @@ If the item doesn't appear, check those two conditions first. You can also run i
 Navigate to the extension folder first:
 
 ```bash
-cd C:\Users\deepa\opticore-slm\opticore-slm\vscode-extension
+cd C:\Users\opticore-slm\opticore-slm\vscode-extension
 ```
 
 | Task | Command | When to use |
@@ -226,7 +226,7 @@ cd C:\Users\deepa\opticore-slm\opticore-slm\vscode-extension
 **Workflow when you change the extension source:**
 
 ```bash
-cd C:\Users\deepa\opticore-slm\opticore-slm\vscode-extension
+cd C:\Users\opticore-slm\opticore-slm\vscode-extension
 npm run compile
 vsce package
 dir *.vsix
@@ -265,7 +265,7 @@ You should get a JSON response like:
 The extension sent a request but got no response. Fix: Start the server in a terminal and keep it running.
 
 ```bash
-cd C:\Users\deepa\opticore-slm\opticore-slm\server
+cd C:\Users\opticore-slm\opticore-slm\server
 python server.py
 ```
 
@@ -295,7 +295,7 @@ If you don't need the AI model and only want the rule-based mode, skip this pack
 You are in the wrong folder. `package.json` is inside `vscode-extension/`, not the repo root:
 
 ```bash
-cd C:\Users\deepa\opticore-slm\opticore-slm\vscode-extension
+cd C:\Users\opticore-slm\opticore-slm\vscode-extension
 dir
 ```
 
