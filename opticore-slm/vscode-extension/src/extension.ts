@@ -57,7 +57,7 @@ async function handleOptimize(context: vscode.ExtensionContext) {
       try {
         const serverUrl = vscode.workspace
           .getConfiguration("opticore")
-          .get<string>("serverUrl", "http://127.0.0.1:5000");
+          .get<string>("serverUrl", "http://127.0.0.1:8080");
 
         const result = await postToServer(serverUrl, selectedText);
         showResultPanel(context, selectedText, result);

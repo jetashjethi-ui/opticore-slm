@@ -42,3 +42,23 @@ training_zip.zip
 *.safetensors
 *.h5
 *.onnx
+
+# JavaScript dependencies and generated extension output
+node_modules/
+out/
+*.vsix
+
+# Local Python environments and credentials
+.venv/
+.env
+.env.*
+!.env.example
+
+# Downloaded weights and generated training checkpoints
+llama.cpp/
+opticore-finetuned*/
+opticore-merged-full/
+opticore-model-gguf/
+opticore-f16.gguf
+*.gguf
+debug_hf_token.py
